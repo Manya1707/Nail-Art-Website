@@ -1,0 +1,44 @@
+/* --- RESET & BASE --- */
+*{box-sizing:border-box;margin:0;padding:0;font-family:'Segoe UI',sans-serif}
+body{background:#fffafc;color:#3a3a3a}
+
+/* --- NAV --- */
+nav{background:#f5c6d6;padding:1rem;text-align:center;box-shadow:0 4px 6px rgba(0,0,0,.1)}
+.nav-btn{background:#fff;border:2px solid #e91e63;color:#e91e63;font-weight:600;
+         padding:8px 18px;margin:0 6px;border-radius:25px;cursor:pointer;transition:.3s}
+.nav-btn:hover{background:#e91e63;color:#fff}
+
+/* --- HEADER --- */
+.header{text-align:center;padding:2.5rem;background:linear-gradient(135deg,#ffe0ec,#ffd6e8);color:#d81b60}
+.header h1{font-size:3rem;margin-bottom:1rem}
+.social-buttons a{display:inline-block;margin:0 10px;background:#ec407a;color:#fff;
+                  padding:10px 20px;border-radius:30px;text-decoration:none;transition:.3s}
+.social-buttons a:hover{background:#c2185b}
+
+/* --- SECTIONS --- */
+.section{display:none;padding:2rem}
+.active-section{display:block}
+
+/* --- FEATURES (GALLERY) --- */
+.features .row{display:flex;flex-wrap:wrap;align-items:center;margin-bottom:2rem}
+.features .text-col,.features .img-col{flex:1;padding:1rem}
+.features img{width:100%;border-radius:18px;box-shadow:0 4px 8px rgba(0,0,0,.1)}
+
+/* --- PRICING --- */
+.pricing-container{display:grid;gap:1.5rem;grid-template-columns:repeat(auto-fit,minmax(200px,1fr))}
+.pricing-card{background:#fff0f5;border-radius:15px;padding:1rem;text-align:center;
+              box-shadow:0 4px 6px rgba(0,0,0,.1)}
+.pricing-card img{width:100%;border-radius:10px;margin-bottom:.5rem}
+.price{color:#d81b60;font-weight:bold}
+
+/* --- CONTACT / APPOINTMENT --- */
+#appointmentForm{margin-top:1rem;display:flex;flex-direction:column;gap:10px}
+#appointmentForm input,#appointmentForm button{padding:10px;border-radius:5px;border:1px solid #ccc}
+#appointmentForm button{background:#e91e63;color:#fff;font-weight:600;border:none}
+
+/* --- LISTS --- */
+section ul,section ol{margin-left:1.2rem;margin-top:1rem}
+section li{margin-bottom:.5rem}
+
+/* --- FOOTER --- */
+footer{text-align:center;padding:1rem;background:#f8e1ec;color:#c2185b;margin-top:2rem}

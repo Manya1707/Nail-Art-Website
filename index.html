@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MANYA'S Nails</title>
+  <link rel="icon" type="image/jpeg" href="manyanails.jpeg" />
+  <link rel="stylesheet" href="project.css" />
+  <link rel="stylesheet" href="rough2.css" />
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+  <nav class="nav">
+    <button class="nav-btn" onclick="showSection('homeSection')">HOME</button>
+    <button class="nav-btn" onclick="showSection('frontSection')">GALLERY</button>
+    <button class="nav-btn" onclick="showSection('pricingSection')">PRICING</button>
+    <button class="nav-btn" onclick="showSection('recommendationSection')">RECOMMENDATIONS</button>
+  </nav>
+
+  <header class="header">
+    <h1>NAILED IT BY MANYA</h1>
+    <div class="social-buttons">
+      <a href="https://www.instagram.com/nailed_it_by_manya/">INSTAGRAM</a>
+      <a href="https://www.youtube.com/@manyataneja7741/shorts">YOUTUBE</a>
+    </div>
+  </header>
+
+  <!-- HOME -->
+  <section id="homeSection" class="section active-section">
+    <div class="contact-section">
+      <h2>Contact</h2>
+      <ul>
+        <li>Email: manya@example.com</li>
+        <li>Phone: +123 456 7890</li>
+      </ul>
+    </div>
+
+    <div class="appointment-section">
+      <h2>Appointment</h2>
+      <button id="openFormBtn">Book Now</button>
+      <div id="appointmentForm" class="hidden">
+        <form action="submit_appointment.php" method="POST">
+          <input type="text" name="name" placeholder="Name" required />
+          <input type="tel" name="phone" placeholder="Phone" required />
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="frontSection" class="section">
+    <div class="features">
+      <div class="row">
+        <div class="text-col">
+          <h2>PICTURE 1</h2>
+          <p>“I used to think there were only 7 colors. That was before I started shopping for nail polish.”</p>
+        </div>
+        <div class="img-col"><img src="imagstone.png" alt="Design 1" /></div>
+      </div>
+
+      <div class="row">
+        <div class="text-col">
+          <h2>PICTURE 2</h2>
+          <p>“Nails are the period at the end of the sentence. They complete the look.”</p>
+        </div>
+        <div class="img-col"><img src="nails2.jpeg" alt="Design 2" /></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section id="pricingSection" class="section">
+    <h2>Our Nail‑Art Services & Pricing</h2>
+    <div class="pricing-container">
+      <div class="pricing-card"><img src="image.png" /><h3>Gel Art</h3><p class="price">₹399</p></div>
+      <div class="pricing-card"><img src="imagstone.png" /><h3>Stone Art</h3><p class="price">₹499</p></div>
+      <div class="pricing-card"><img src="manyanails.jpeg" /><h3>Simple Art</h3><p class="price">₹299</p></div>
+      <div class="pricing-card"><img src="imgcat.png" /><h3>Cat Art</h3><p class="price">₹449</p></div>
+      <div class="pricing-card"><img src="stamp1.jpg" /><h3>Stamping</h3><p class="price">₹349</p></div>
+      <div class="pricing-card"><img src="imgglitter.png" /><h3>Glitter</h3><p class="price">₹329</p></div>
+      <div class="pricing-card"><img src="tape.jpg" /><h3>Tape Art</h3><p class="price">₹299</p></div>
+      <div class="pricing-card"><img src="imgsticker.jpeg" /><h3>Stick‑ons</h3><p class="price">₹279</p></div>
+    </div>
+  </section>
+
+  <!-- RECOMMENDATIONS -->
+  <section id="recommendationSection" class="section">
+    <h2>End‑of‑Summer Nail Care & Color Recommendations</h2>
+    <ol>
+      <li>Hydrate cuticles with vitamin E oil.</li>
+      <li>File gently in one direction.</li>
+      <li>Use acetone‑free removers.</li>
+      <li>Let nails breathe between polishes.</li>
+      <li>Apply a keratin strengthening base coat.</li>
+    </ol>
+    <h3>Color Picks</h3>
+    <ul>
+      <li>Burnt Orange</li><li>Dusty Rose</li><li>Olive Green</li><li>Burgundy</li><li>Creamy Neutrals</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Nailed It By Manya</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

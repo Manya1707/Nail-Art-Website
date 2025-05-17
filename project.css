@@ -1,0 +1,247 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.social-buttons {
+    margin-top: 20px;
+}
+
+.social-btn {
+    display: inline-flex;
+    align-items: center;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.social-btn a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.social-btn img {
+    width: 30px;
+    height: 30px;
+}
+
+.features {
+    padding: 50px 5%;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.text-col {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.img-col {
+    flex: 1;
+}
+
+.img-col img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 10%;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-section h2 {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    color: #fff;
+}
+
+.dropdown-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.dropdown-btn:hover {
+    background-color: #0056b3;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 10px;
+}
+
+.dropdown-content div {
+    margin-bottom: 20px;
+}
+
+.contact-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-section ul li {
+    margin-bottom: 10px;
+}
+
+.appointment-form {
+    margin-top: 20px;
+}
+
+.appointment-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.appointment-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.appointment-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.appointment-form button:hover {
+    background-color: #0056b3;
+}
+.hello {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    color: #f9f3f3;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    color: #fefcfc;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.intro {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+section h3 {
+    color: #e67e22;
+    margin-bottom: 15px;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    background-color: #f3f3f3;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-left: 5px solid #e67e22;
+    font-size: 1.1em;
+}
+
+.call-to-action {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.call-to-action p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.booking {
+    font-size: 1.3em;
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+#recommendationsSection ul li {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 5px;
+}
